@@ -11,10 +11,10 @@ export const removePlayer = index => {
   return {
     type: PlayerActionTypes.REMOVE_PLAYER,
     index
-  }
-}
+  };
+};
 
-export const updatePlayer = (index, score) => {
+export const updatePlayerScore = (index, score) => {
   return {
     type: PlayerActionTypes.UPDATE_PLAYER_SCORE,
     index,
